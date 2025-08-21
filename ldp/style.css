@@ -1,0 +1,158 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    line-height: 1.6;
+    background-color: #f9f6f1;
+  }
+  h1, h2, h3 {
+    margin-bottom: 15px;
+    color: #2e7d32;
+  }
+  a {
+    text-decoration: none;
+    color: white;
+  }
+  
+  /* Botões */
+  .btn {
+    display: inline-block;
+    padding: 12px 20px;
+    margin-top: 15px;
+    background: #f57c00;
+    color: #fff;
+    border-radius: 8px;
+    transition: 0.3s;
+  }
+  .btn:hover {
+    background: #e65100;
+  }
+  
+  /* Hero */
+  .hero {
+    background: url('jumento-hero.jpg') center/cover no-repeat;
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+  }
+  .hero h1 {
+    font-size: 2.5rem;
+  }
+  .hero p {
+    margin: 20px 0;
+  }
+  
+  /* Container genérico */
+  .container {
+    display: flex;
+    gap: 20px;
+    padding: 40px 20px;
+    align-items: center;
+  }
+  .container .col {
+    flex: 1;
+  }
+  
+  /* Seções */
+  section {
+    padding: 60px 20px;
+  }
+  section h2 {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  /* Como Funciona */
+  .como-funciona {
+    background: #a5d6a7;
+    text-align: center;
+  }
+  .steps {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-bottom: 20px;
+  }
+  .step {
+    max-width: 200px;
+  }
+  
+  /* Benefícios */
+  .beneficios .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 20px;
+  }
+  .beneficios .card {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+  }
+  
+  /* Planos */
+  .planos .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 20px;
+  }
+  .plano {
+    background: #a5d6a7;
+    padding: 25px;
+    border-radius: 10px;
+    text-align: center;
+  }
+  .plano.destaque {
+    background: #2e7d32;
+    color: white;
+  }
+  .plano .btn {
+    margin-top: 20px;
+  }
+  
+  /* Histórias */
+  .historias blockquote {
+    font-style: italic;
+    background: #fff;
+    padding: 20px;
+    border-left: 5px solid #2e7d32;
+  }
+  
+  /* Confiança */
+  .confianca .grid {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+  }
+  .confianca .card {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+  }
+  
+  /* CTA Final */
+  .cta-final {
+    background: url('jumento-feliz.jpg') center/cover no-repeat;
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+  }
+  .cta-final h2 {
+    margin-bottom: 20px;
+    font-size: 1.8rem;
+  }
+  
+  /* Rodapé */
+  footer {
+    background: #2e7d32;
+    color: white;
+    text-align: center;
+    padding: 20px;
+  }
+  
