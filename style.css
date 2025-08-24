@@ -164,13 +164,13 @@
   
   /* Confiança */
   .confianca .grid {
-    display: flex;
-    gap: 10px;
-    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 20px;
   }
   .confianca .card {
     background: white;
-    padding: 30px;
+    padding: 20px;
     border-radius: 10px;
     text-align: center;
   }
@@ -194,3 +194,4 @@
     text-align: center;
     padding: 20px;
   }
+
