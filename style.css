@@ -38,10 +38,12 @@
     background: url('jumento-hero.jpg') center/cover no-repeat;
     color: rgb(0, 0, 0);
     text-align: center;
-    padding: 100px 20px;
+    padding: 40px 20px;
   }
   .hero h1 {
     font-size: 2.0rem;
+    line-height: 1.2;
+    margin-top: 50px;
   }
   .hero p {
     margin: 20px 0;
@@ -180,11 +182,12 @@
     background: url('jumento-feliz.jpg') center/cover no-repeat;
     color: white;
     text-align: center;
-    padding: 100px 20px;
+    padding: 50px 20px;
+    line-height: 1.5;
   }
   .cta-final h2 {
     margin-bottom: 20px;
-    font-size: 1.8rem;
+    font-size: 1.3rem;
   }
   
   /* Rodapé */
@@ -192,6 +195,7 @@
     background: #693D3D;
     color: white;
     text-align: center;
-    padding: 20px;
+    padding: 10px;
+    font-size: 0.8rem;
   }
-
+  
