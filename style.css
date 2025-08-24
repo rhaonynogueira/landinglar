@@ -53,8 +53,8 @@
   }
 
   .container img {
-    max-width:400px;
-    max-height:300px;
+    max-width:350px;
+    max-height:350px;
     width: auto;
     height: auto;
 }
@@ -187,3 +187,4 @@
     padding: 20px;
   }
   
+
