@@ -157,7 +157,7 @@
   /* Confiança */
   .confianca .grid {
     display: flex;
-    gap: 20px;
+    gap: 10px;
     justify-content: center;
   }
   .confianca .card {
@@ -187,4 +187,5 @@
     padding: 20px;
   }
   
+
 
