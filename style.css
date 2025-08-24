@@ -30,7 +30,7 @@
     transition: 0.3s;
   }
   .btn:hover {
-    background: #693D3D;
+    background: #916868;
   }
   
   /* Hero */
@@ -136,7 +136,7 @@
     text-align: center;
     scroll-snap-align: start;
   }
-  
+
   .plano.destaque {
     background: #a76464;
     color: white;
