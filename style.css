@@ -33,6 +33,36 @@
     background: #916868;
   }
   
+  /* Quem Somos */
+.quem-somos {
+  background: #fff;
+  padding: 20px 20px;
+  text-align: center;
+}
+.quem-somos .container {
+  max-width: 900px;
+  margin: 0 auto;
+}
+.quem-somos h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #693D3D;
+}
+.quem-somos p {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: #444;
+}
+
+  #quemsomos {
+    padding: 20px 20px;
+  }
+  /* O Problema */
+
+  .problema {
+    padding: 20px 20px;
+  }
+
   /* Hero */
   .hero {
     background: url('jumento-hero.jpg') center/cover no-repeat;
@@ -115,19 +145,24 @@
   }
   
   /* Benefícios */
+
+  .beneficios {
+    background: #ffffff;
+  }
   .beneficios .grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
     gap: 20px;
   }
   .beneficios .card {
-    background: white;
+    background: rgb(250, 213, 213);
     padding: 20px;
     border-radius: 10px;
     text-align: center;
   }
   
   /* Planos */
+
   .planos .slider {
     display: flex;
     overflow-x: auto;
@@ -140,31 +175,56 @@
   .plano {
     flex: 0 0 80%;
     max-width: 300px;
-    background: #be9999;
-    padding: 25px;
+    background: #ffffff;
+    padding: 20px;
     border-radius: 10px;
     text-align: center;
     scroll-snap-align: start;
   }
 
   .plano.destaque {
-    background: #a76464;
+    background: #ffffff;
     color: white;
   }
   
   .plano .btn {
     margin-top: 20px;
   }
-  
+
+#plano-diamante {
+  background-color: #E0FFFF; /* Azul cristalino */
+}
+
+#plano-ouro {
+  background-color: #FFD700; /* Dourado */
+}
+
+#plano-prata {
+  background-color: #C0C0C0; /* Prata */
+}
+
+#plano-bronze {
+  background-color: #b47b42; /* Bronze */
+}
+
   /* Histórias */
+
+  .historias {
+    padding: 20px 20px;
+
+  }
   .historias blockquote {
     font-style: italic;
     background: #fff;
-    padding: 20px;
+    padding: 10px;
     border-left: 5px solid #693D3D;
   }
   
   /* Confiança */
+
+  .confianca {
+    padding: 20px 20px;
+  }
   .confianca .grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
@@ -182,7 +242,7 @@
     background: url('jumento-feliz.jpg') center/cover no-repeat;
     color: white;
     text-align: center;
-    padding: 50px 20px;
+    padding: 20px 20px;
     line-height: 1.5;
   }
   .cta-final h2 {
